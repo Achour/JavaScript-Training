@@ -14,6 +14,8 @@ let p = new Promise((resolve, reject) => {
     }
 })
 
+// Executing the example
+
 p.then((msg) => {
     console.log(msg)
 }).catch((msg) => {
